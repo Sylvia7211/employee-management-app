@@ -1,34 +1,30 @@
-<!DOCTYPE html>
+<<!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Add Employee</title>
-        <link rel="stylesheet" href="styles.css">
-        <script defer src="main.js"></script>
-    </head>
-    <body>
-    <div id="header"></div>
-<section class="hero small-hero">
-    <h1>Add Employee Contact</h1>
-    <p>Fill the form below to add a new employee.</p>
-    </body>
+<head>
+  <title>New Contact</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div id="header"></div>
+
+<section class="hero">
+  <h1>Add New Employee</h1>
 </section>
-<section class="form-section">
-<form>
-<label>Full Name</label>
-<input type="text">
-<label>Email Address</label>
-<input type="email">
-<label>Phone Number</label>
-<input type="tel">
-<label>Department</label>
-<input type="text">
-<label>Position</label>
-<input type="text">
-<button type="submit" class="submit-btn">Add Employee</button>
-</form>
+
+<section style="padding:40px;">
+  <form class="form">
+    <input type="text" placeholder="Full Name" required>
+    <input type="email" placeholder="Email" required>
+    <input type="text" placeholder="Phone Number">
+    <input type="text" placeholder="Department">
+    <input type="text" placeholder="Position">
+    <button type="submit">Submit</button>
+  </form>
 </section>
+
 <div id="footer"></div>
+
+<script src="main.js"></script>
 </body>
 </html>
