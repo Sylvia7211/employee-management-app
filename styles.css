@@ -1,0 +1,110 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: var(--white);
+}
+
+/* HEADER */
+.header {
+  position: sticky;
+  top: 0;
+  background-color: var(--black);
+  color: var(--white);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+  z-index: 1000;
+}
+
+.logo {
+  font-weight: bold;
+  color: var(--golden-grey);
+}
+
+.nav a {
+  color: var(--white);
+  text-decoration: none;
+  margin-left: 20px;
+  font-weight: bold;
+}
+
+.nav a:hover {
+  color: var(--purple);
+}
+
+/* HERO SECTION */
+.hero {
+  height: 60vh;
+  background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+              url('images/hero.jpg');
+  background-size: cover;
+  background-position: center;
+  color: var(--white);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  color: var(--golden-grey);
+}
+
+/* FOOTER */
+.footer {
+  background-color: var(--black);
+  color: var(--white);
+  text-align: center;
+  padding: 15px;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  margin: auto;
+}
+
+.form input {
+  margin-bottom: 15px;
+  padding: 10px;
+}
+
+.form button {
+  padding: 12px;
+  background-color: var(--purple);
+  color: var(--white);
+  border: none;
+  cursor: pointer;
+}
+
+.form button:hover {
+  background-color: var(--golden-grey);
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: center;
+}
+
+th {
+  background-color: var(--purple);
+  color: var(--white);
+}
+
+button {
+  padding: 5px 10px;
+  margin: 2px;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  opacity: 0.8;
+}
