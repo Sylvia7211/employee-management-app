@@ -22,42 +22,36 @@
 	</nav>
 </header>
 
-<section class="hero small-hero">
-
-<h1>Employee Contacts</h1>
-
-<p>View and manage employee contact information.</p>
-
+<section class="hero">
+	<div>
+		<h1>All Employee Contacts</h1>
+		<p style="font-size:1.1rem; max-width:600px; margin: 0 auto;">Browse, edit, or manage your organization’s employee contact information in a clear, organized table below.</p>
+	</div>
 </section>
 
 <section class="table-section">
-
-<table>
-
-<tr>
-<th>Name</th>
-<th>Email</th>
-<th>Phone</th>
-<th>Department</th>
-<th>Actions</th>
-</tr>
-
-<tr>
-<td>John Doe</td>
-<td>john@email.com</td>
-<td>0700000000</td>
-<td>HR</td>
-<td>
-
-<button onclick="details()">Details</button>
-<button onclick="editContact()">Edit</button>
-<button onclick="deleteContact()">Delete</button>
-
-</td>
-</tr>
-
-</table>
-
+	<h2 style="color:var(--purple);margin-bottom:18px;">Employee Directory</h2>
+	<table>
+		<tr>
+			<th>Name</th>
+			<th>Email</th>
+			<th>Phone</th>
+			<th>Department</th>
+			<th>Actions</th>
+		</tr>
+		<tr>
+			<td>John Doe</td>
+			<td>john@email.com</td>
+			<td>0700000000</td>
+			<td>HR</td>
+			<td>
+				<button onclick="details()">Details</button>
+				<button onclick="editContact()">Edit</button>
+				<button onclick="deleteContact()">Delete</button>
+			</td>
+		</tr>
+		<!-- Add more employee rows here -->
+	</table>
 </section>
 
 
