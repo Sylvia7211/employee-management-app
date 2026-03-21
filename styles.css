@@ -41,17 +41,16 @@ body {
 }
 
 /* HERO SECTION */
+
 .hero {
-  height: 60vh;
-  background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
-              url('images/hero.jpg');
-  background-size: cover;
-  background-position: center;
+  min-height: 55vh;
+  background: var(--purple);
   color: var(--white);
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
+  width: 100%;
 }
 
 .hero h1 {
