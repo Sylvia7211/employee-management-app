@@ -44,7 +44,7 @@ body {
 
 .hero {
   min-height: 55vh;
-  background: var(--purple);
+  background: linear-gradient(rgba(108,63,207,0.85), rgba(108,63,207,0.85)), url('https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=1200&q=80') center/cover no-repeat;
   color: var(--white);
   display: flex;
   justify-content: center;

@@ -19,10 +19,27 @@
     </nav>
 </header>
 <section class="hero" style="min-height: 55vh; display: flex; align-items: center; justify-content: center;">
-    <div style="background: rgba(24,24,24,0.7); padding: 40px 32px; border-radius: 16px; box-shadow: 0 4px 24px rgba(24,24,24,0.12); max-width: 600px; margin: auto;">
-        <h1 style="color: var(--golden-grey); font-size: 2.8rem; margin-bottom: 12px; letter-spacing: 1px;">Welcome to EMS</h1>
-        <p style="font-size:1.2rem; color: var(--white); margin-bottom: 24px;">Your all-in-one solution for managing employee contacts, departments, and positions with ease and professionalism.</p>
-        <a href="new-contact.html" class="hero-btn">Add New Employee</a>
+    <div id="hero-slideshow" style="background: rgba(24,24,24,0.7); padding: 40px 32px; border-radius: 16px; box-shadow: 0 4px 24px rgba(24,24,24,0.12); max-width: 600px; margin: auto; position: relative;">
+        <div class="slide" style="display:block;">
+            <h1 style="color: var(--golden-grey); font-size: 2.8rem; margin-bottom: 12px; letter-spacing: 1px;">Welcome to EMS</h1>
+            <p style="font-size:1.2rem; color: var(--white); margin-bottom: 24px;">Your all-in-one solution for managing employee contacts, departments, and positions with ease and professionalism.</p>
+            <a href="new-contact.html" class="hero-btn">Add New Employee</a>
+        </div>
+        <div class="slide" style="display:none;">
+            <h1 style="color: var(--golden-grey); font-size: 2.8rem; margin-bottom: 12px; letter-spacing: 1px;">Centralized Management</h1>
+            <p style="font-size:1.2rem; color: var(--white); margin-bottom: 24px;">Easily store, update, and access all employee information in one secure place.</p>
+            <a href="view-contacts.html" class="hero-btn">View Contacts</a>
+        </div>
+        <div class="slide" style="display:none;">
+            <h1 style="color: var(--golden-grey); font-size: 2.8rem; margin-bottom: 12px; letter-spacing: 1px;">Modern & Professional</h1>
+            <p style="font-size:1.2rem; color: var(--white); margin-bottom: 24px;">Experience a modern interface with your organization’s branding colors.</p>
+            <a href="new-contact.html" class="hero-btn">Get Started</a>
+        </div>
+        <div style="text-align:center; margin-top:18px;">
+            <span class="dot" style="height:12px;width:12px;margin:0 4px;background:var(--golden-grey);border-radius:50%;display:inline-block;cursor:pointer;"></span>
+            <span class="dot" style="height:12px;width:12px;margin:0 4px;background:#bbb;border-radius:50%;display:inline-block;cursor:pointer;"></span>
+            <span class="dot" style="height:12px;width:12px;margin:0 4px;background:#bbb;border-radius:50%;display:inline-block;cursor:pointer;"></span>
+        </div>
     </div>
 </section>
 
