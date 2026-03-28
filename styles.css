@@ -1,3 +1,15 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
 :root {
   --purple: #6c3fcf;
   --golden-grey: #bfa76f;
@@ -64,6 +76,7 @@ body {
   color: var(--white);
   text-align: center;
   padding: 15px;
+  margin-top: auto;
 }
 .form {
   display: flex;
