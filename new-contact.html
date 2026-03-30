@@ -25,12 +25,27 @@
 
 <section class="content">
   <h2>Employee Details</h2>
-  <form class="form" action="https://formspree.io/f/mlgojvwr" method="post">
-    <input type="text" name="fullName" placeholder="Full Name" required>
-    <input type="email" name="email" placeholder="Email" required>
-    <input type="text" name="phone" placeholder="Phone Number">
-    <input type="text" name="department" placeholder="Department">
-    <input type="text" name="position" placeholder="Position">
+  <form class="form" action="#" method="post">
+    <input type="text" name="idNumber" placeholder="Enter Identification Number" required>
+    <input type="text" name="firstname" placeholder="Enter First Name" required>
+    <input type="text" name="lastname" placeholder="Enter Last Name" required>
+    <div class="form-group gender-group">
+      <label>Gender</label>
+      <label><input type="radio" name="gender" value="Male" required> Male</label>
+      <label><input type="radio" name="gender" value="Female"> Female</label>
+    </div>
+    <input type="text" name="phone" placeholder="+2547---" required>
+    <input type="email" name="email" placeholder="Enter Email" required>
+    <input type="text" name="address" placeholder="Enter Address">
+    <input type="date" name="dob" placeholder="mm/dd/yyyy">
+    <select name="position" required>
+      <option value="">- Select Position if Official -</option>
+      <option value="Manager">Manager</option>
+      <option value="HR">HR</option>
+      <option value="Developer">Developer</option>
+      <option value="Designer">Designer</option>
+      <option value="Other">Other</option>
+    </select>
     <button type="submit">Submit</button>
   </form>
 </section>
